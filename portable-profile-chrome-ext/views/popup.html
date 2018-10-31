@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		body {
+			height: 300px;
+			width: 300px;
+			outline: none;
+		}
+		
+		#request-webcam-permissions {
+			text-align: center;
+			width: 230px;
+			margin-left: 35px;
+			padding-top: 10px;
+		}
+		
+		#request-webcam-permissions a {
+			background: #2A87EC;
+			color: white;
+			font-size: 16px;
+			padding: 10px 12px;
+			border-radius: 3px;
+			text-decoration: none;
+		}
+		</style>
+	</head>
+	<body>
+
+		<div id="request-webcam-permissions">
+			<br>
+			<br>
+			<h2>QR Code Auto-Filler</b> needs to access your webcam to scan QR codes.</h2>
+			<br>
+			<br>
+			<a href="request-webcam-permissions.html" target="_blank">Allow Access</a>
+			<br>
+			<br>
+			<br>
+			Click above and then select "Allow" when Chrome asks you to access the camera.
+		</div>
+		
+		<script src="../js/lib/jquery.js"></script>
+		<script src="../js/check-webcam-permissions.js"></script>
+		<script src="../js/popup.js"></script>
+	</body>
+</html>

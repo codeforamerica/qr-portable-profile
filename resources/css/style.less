@@ -1,0 +1,94 @@
+@mobile: ~"only screen and (max-width: 667px)";
+@desktop: ~"only screen and (min-width: 668px)";
+
+* {
+	-webkit-font-smoothing: antialiased;
+	font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+	outline: none;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+::selection {
+	
+}
+
+html, body {
+	margin: 20px;
+	
+	a {
+		color: #000;
+		text-decoration: none;
+		
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+	
+	
+	label {
+		display: inline-block;
+		width: 150px;
+		color: rgba(0, 0, 0, 0.75);
+	}
+	
+	input[type="text"],
+	input[type="date"] {
+		width: 250px;
+		font-size: 14px;
+		padding: 5px;
+		margin-bottom: 10px;
+		border: 1px solid rgba(0, 0, 0, 0.2);
+	}
+	
+	input[type="submit"] {
+		font-size: 20px;
+		width: 100px;
+	}
+	
+	textarea {
+		width: 404px;
+		height: 200px;
+		font-size: 14px;
+		padding: 5px;
+		margin-bottom: 10px;
+		border: 1px solid rgba(0, 0, 0, 0.2);
+	}
+	
+	#qr-code-scanner {
+		width: 300px;
+		height: 300px;
+		overflow: hidden;
+		text-align: center;
+		
+		video {
+			width: 500px;
+		}
+	}
+	
+	#user-info {
+		display: none;
+		
+		table {
+			th {
+				text-align: left;
+			}
+		}
+	}
+	
+	#user-info-template {
+		display: none;
+	}
+	
+	a#reset {
+		display: none;
+	}
+
+	@media @mobile {
+		
+	}
+	
+	@media @desktop {
+	
+	}
+	
+}

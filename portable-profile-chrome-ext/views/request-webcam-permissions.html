@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+			body {
+				width: 100%;
+				height: 100%;
+				margin: 0;
+				background: rgba(170,170,170,1);
+			}
+			
+			#gradient {
+				width: 700px;
+				height: 700px;
+				position: absolute;
+				top: -350px;
+				left: -100px;
+				background: rgb(255,255,255);
+				background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 10%, rgba(170,170,170,1) 70%);
+			}
+			
+			#text {
+				position: absolute;
+			    top: 150px;
+			    left: 94px;
+			    z-index: 1;
+			    font-size: 18px;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="text">Click "Allow" to enable QR Code Auto-Fill.</div>
+		<div id="gradient"></div>
+		
+		<script type="text/javascript" src="../js/check-webcam-permissions.js"></script>
+		<script type="text/javascript" src="../js/request-webcam-permissions.js"></script>
+	</body>
+</html>

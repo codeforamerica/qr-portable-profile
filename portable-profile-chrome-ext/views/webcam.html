@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		#video-preview-wrapper {
+			height: 300px;
+			width: 300px;
+			overflow: hidden;
+			position: relative;
+		}
+		
+		#video-preview-wrapper #loading {
+			width: 300px;
+			height: 300px;
+			background: black;
+			position: absolute;
+			top: 0;
+			color: white;
+			text-align: center;
+		}
+		
+		#video-preview-wrapper #loading span {
+			padding-top: 135px;
+			display: inline-block;
+		}
+		
+		video {
+			height: 300px;
+			position: absolute;
+		}
+		</style>
+	</head>
+	<body>
+		<!--<div style="float: right;"><a id="test-button" style="padding: 10px; background: black; color: white; margin: 5px;">Test</a></div>-->
+		<div id="video-preview-wrapper">
+			<div id="loading"><span>Loading video...</span></div>
+			<video id="preview"></video>
+		</div>
+		
+		<script src="../js/lib/jquery.js"></script>
+		<script src="../js/check-webcam-permissions.js"></script>
+		<script type="text/javascript" src="../js/lib/instascan.js"></script>
+		<script type="text/javascript" src="../js/webcam.js"></script>
+	</body>
+</html>
