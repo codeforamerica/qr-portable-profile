@@ -18,9 +18,6 @@
 	
 
 	// Send notification to user that their data was looked up
-
-	require_once("../resources/php/twilio/Twilio/autoload.php");
-	include("../resources/php/twilio-setup.php");
 	
 	$name = explode(" ", $user_info["name"]);
 	$first_name = $name[0];
