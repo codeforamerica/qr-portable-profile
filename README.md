@@ -1,4 +1,4 @@
-# Portable Profile and Referral System
+# 📟 Portable Profile and Referral System
 ### QR-code based system for helping job seekers stay in control of their data and share with different service providers.
 
 #### User Impact
@@ -7,6 +7,7 @@ Enable job seekers to share their information with different service providers s
 #### Government System Impact
 Support collaboration across silos in the workforce system, and give service providers feedback re the referrals that they are making.
 
+***
 ![screenshot-1](https://github.com/codeforamerica/qr-portable-profile/blob/master/readme/screenshots/1.png)
 ***
 ![screenshot-2](https://github.com/codeforamerica/qr-portable-profile/blob/master/readme/screenshots/2.png)
