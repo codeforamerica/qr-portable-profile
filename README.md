@@ -16,7 +16,7 @@ Support collaboration across silos in the workforce system, and give service pro
 
 - [Creating New User and Scanning QR Code to Fill Form](https://codeforamerica.wake.com/34/3ciPzs9EmTvmfYvdBxBn3e) 
 - [Using Chrome Extension to Fill Form](https://codeforamerica.wake.com/35/6N8II0UwMZcZ5QlOOLakT3)
-- [Using Chrome Extension to Enter Data into Public Workforce System Websites](https://codeforamerica.wake.com/35/6N8II0UwMZcZ5QlOOLakT3)
+- [Using Chrome Extension to Enter Data into Public Workforce System Websites](https://codeforamerica.wake.com/39/7b4JldUzDff76GbXxPhGZx)
 
 ### User Flow
 
