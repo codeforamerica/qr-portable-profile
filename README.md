@@ -12,10 +12,13 @@ Enable job seekers to share their information with different service providers s
 #### Government System Impact
 Support collaboration across silos in the workforce system, and give service providers feedback re the referrals that they are making.
 
-#### [Video Demo](https://codeforamerica.wake.com/34/3ciPzs9EmTvmfYvdBxBn3e) 
-#### [Chrome Extension Video Demo](https://codeforamerica.wake.com/35/6N8II0UwMZcZ5QlOOLakT3)
+### Demos
 
-#### User Flow:
+- [Creating New User and Scanning QR Code to Fill Form](https://codeforamerica.wake.com/34/3ciPzs9EmTvmfYvdBxBn3e) 
+- [Using Chrome Extension to Fill Form](https://codeforamerica.wake.com/35/6N8II0UwMZcZ5QlOOLakT3)
+- [Using Chrome Extension to Enter Data into Public Workforce System Websites](https://codeforamerica.wake.com/35/6N8II0UwMZcZ5QlOOLakT3)
+
+### User Flow
 
 ![screenshot-1](https://github.com/codeforamerica/qr-portable-profile/blob/master/readme/screenshots/1.png)
 ***
