@@ -7,8 +7,6 @@
 		include("../../secrets/db-config.php");
 		include("../../secrets/twilio-setup.php");
 	} else {
-		use Twilio\Rest\Client;
-
 		$sid = getenv("TWILIO_SID");
 		$token = getenv("TWILIO_TOKEN");
 		$twilio = new Client($sid, $token);
