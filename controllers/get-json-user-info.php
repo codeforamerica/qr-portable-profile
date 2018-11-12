@@ -2,7 +2,8 @@
 	date_default_timezone_set('America/Los_Angeles');
 	
 	include("../resources/php/base.php");
-
+	require_once("../resources/php/twilio/Twilio/autoload.php");
+	
 	if(mysqli_connect_errno()) { echo "Failed to connect to MySQL: " . mysqli_connect_error(); }
 
 	$sql = "SELECT * FROM users WHERE id = '".$_GET["id"]."'";
