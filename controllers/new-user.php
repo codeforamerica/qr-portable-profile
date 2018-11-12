@@ -37,10 +37,6 @@
 	
 	$new_user_id = mysqli_insert_id($db);
 	mysqli_close($db);
-	
-	
-	// Send QR code to inputted phone number	
-	include("../../secrets/twilio-setup.php");
 
 	$message = $twilio->messages
 		->create("+1 ".$form_data["phone_number"], // to
