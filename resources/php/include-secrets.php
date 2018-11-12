@@ -7,7 +7,7 @@
 		include("../../secrets/db-config.php");
 		include("../../secrets/twilio-setup.php");
 	} else {		
-		require_once("../resources/php/twilio/Twilio/autoload.php");
+		require_once("twilio/Twilio/autoload.php");
 		use Twilio\Rest\Client;
 
 		$sid = getenv("TWILIO_SID");
