@@ -33,6 +33,12 @@
 		<br>
 		<br>	
 		<span style="font-size: 32px; vertical-align: -7px;">🥑</span>&nbsp;&nbsp;&nbsp;<a href="https://www.mybenefitscalwin.org/mbp/create/personalinfo.htm?county=38" target="_blank">MyBenefits CalWIN</a>
-
+		<br>
+		<br>	
+		<br>
+		<br>
+		<h3>Debug</h3>
+		<br>	
+		<span style="font-size: 32px; vertical-align: -7px;">📟</span>&nbsp;&nbsp;&nbsp;<a href="portable-profile-chrome-ext.zip" target="_blank">Download Chrome Extension</a>
 	</body>
 </html>
