@@ -18,7 +18,6 @@
 
 	mysqli_close($db);
 	
-
 	// Send notification to user that their data was looked up
 	
 	$name = explode(" ", $user_info["name"]);
