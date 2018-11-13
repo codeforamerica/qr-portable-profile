@@ -47,7 +47,7 @@
 			array(
 				"body" => "Hi ".$form_data["name"].", you're signed up with AJC! Use this QR code to sign in to other services.",
 				"from" => $twilio_from_number,
-				"mediaUrl" => $server."/portable-profile/git/controllers/generate-qr-code.php?id=".$new_user_id
+				"mediaUrl" => $server."/controllers/generate-qr-code.php?id=".$new_user_id
 			)
 		);
 	
