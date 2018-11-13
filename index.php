@@ -39,6 +39,6 @@
 		<br>
 		<h3>Debug</h3>
 		<br>	
-		<span style="font-size: 32px; vertical-align: -7px;">📟</span>&nbsp;&nbsp;&nbsp;<a href="portable-profile-chrome-ext.zip" target="_blank">Download Chrome Extension</a>
+		<span style="font-size: 32px; vertical-align: -7px;">⚙️</span>&nbsp;&nbsp;&nbsp;<a href="portable-profile-chrome-ext.zip" target="_blank">Download Chrome Extension</a>
 	</body>
 </html>
