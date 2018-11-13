@@ -6,7 +6,7 @@ scanner.addListener('scan', function (qr_code_content) {
 		var current_tab = tabs[0];
 		console.log(current_tab);
 	
-		$.get("http://localhost/portable-profile/git/controllers/get-json-user-info.php?id="+qr_code_content+"&referrer="+current_tab.title, function(user_info_json) {
+		$.get("http://portable-profile.herokuapp.com/controllers/get-json-user-info.php?id="+qr_code_content+"&referrer="+current_tab.title, function(user_info_json) {
 			console.log(user_info_json);
 			user_info = JSON.parse(user_info_json);
 
@@ -35,7 +35,7 @@ Instascan.Camera.getCameras().then(function (cameras) {
 
 $("#test-button").click(function() {
 
-	$.get("http://localhost/portable-profile/git/controllers/get-json-user-info.php?id=38", function(user_info_json) {
+	$.get("http://portable-profile.herokuapp.com/controllers/get-json-user-info.php?id=38", function(user_info_json) {
 		console.log(user_info_json);
 		user_info = JSON.parse(user_info_json);
 
