@@ -1,6 +1,9 @@
 # 🖥 Portable Profile and Referral System
 ### QR-code based system for helping job seekers stay in control of their data and share with different service providers.
 
+#### [View Live Site](http://portable-profile.herokuapp.com)
+#### [Download Chrome Extension](http://portable-profile.herokuapp.com/portable-profile-chrome-ext.zip)
+
 Job seekers are given a QR code when they first register with a job center. When they visit another service provider, the case manager scans a job seeeker's QR code and that triggers a call to the central database which sends the job seeker's information to the service provider's system via website or Chrome Extension. Job seekers are are notified via SMS whenever their information is entered into a new system.
 
 The ["WeChat-style" version of this system](https://github.com/codeforamerica/qr-portable-profile-wechat-style) stores job seeker information in the user's browser local storage and they can scan a QR code attached to a form to transmit their information to the service provider.
