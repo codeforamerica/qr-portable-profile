@@ -41,6 +41,7 @@
 	$new_user_id = mysqli_insert_id($db);
 	mysqli_close($db);
 
+	$twilio = new Client($sid, $token);
 	$message = $twilio->messages
 		->create("+1 ".$form_data["phone_number"], // to
 			array(

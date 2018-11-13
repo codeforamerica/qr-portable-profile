@@ -35,7 +35,8 @@
 	} else {
 		$message_body = $first_name.", your data was used on ".date("F j, Y")." at ".date("g:ia").".";
 	}
-	
+
+	$twilio = new Client($sid, $token);
 	$message = $twilio->messages
 		->create("+1 ".$user_info["phone_number"], // to
 			array(

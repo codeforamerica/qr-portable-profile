@@ -9,8 +9,6 @@
 	} else {
 		$sid = getenv("TWILIO_SID");
 		$token = getenv("TWILIO_TOKEN");
-		$twilio = new Client($sid, $token);
-
 		$twilio_from_number = "+1".getenv("TWILIO_NUMBER");
 
 		$url = parse_url(getenv("CLEARDB_DATABASE_URL"));
