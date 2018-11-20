@@ -38,14 +38,38 @@
 		
 		<br>
 		
-		<a href="#reset" id="reset">Reset</a>
+		<a href="#reset" id="reset"><input type="submit" value="Reset"></a>
 
+		<form action="../controllers/new-user.php" method="POST" style="position: absolute; top: 40px; left: 400px;">
+			<label for="name">Name</label> <input type="text" name="name"><br>
+			<label for="phone_number">Phone Number</label> <input type="text" name="phone_number"><br>
+			<label for="email_address">Email</label> <input type="text" name="email_address"><br>
+			<br><br>
+			<label for="street_address_1">Street Address</label> <input type="text" name="street_address_1"><br>
+			<label for="street_address_2">Apt/Unit</label> <input type="text" name="street_address_2"><br>
+			<label for="address_city">City</label> <input type="text" name="address_city"><br>
+			<label for="address_state">State</label> <input type="text" name="address_state"><br>
+			<label for="address_zip">Zip Code</label> <input type="text" name="address_zip"><br>
+			<br><br>
+			<label for="birth_date">Birthday</label> <input type="date" name="birth_date"><br>
+			<br><br>
+			<label for="notes">Notes</label>
+			<br><br>
+			<textarea name="notes"></textarea>
+			<br>
+			<br>
+			<br>
+			<input type="submit" value="Save">
+		</form>
+		
 		<script type="text/javascript">
 			$("a#reset").click(function() {
 				$(this).hide();
 				
 				table_template_html = $("#user-info-template").html();
 				$("#user-info").html(table_template_html).hide();
+				
+				$('form').trigger("reset");
 			});
 			
 			let scanner = new Instascan.Scanner({ video: document.getElementById('preview') });
@@ -62,6 +86,10 @@
 					$.each(user_info, function(key, value) {
 						$("#user-info table").append("<tr><td>"+key+"</td><td>"+value+"</td></tr>");
 				    });
+					
+					$.each(user_info, function(key, value) {
+						$("form [name='"+key+"']").val(value);
+					});
 				});
 			});
 			
